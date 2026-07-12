@@ -12,11 +12,12 @@ reflection** on that verse.
   app and rendered with **zero network dependency**. Supabase and accounts are
   optional extras (Phase 2); the app is 100% functional without them.
 
-> **Status:** Step 1 of the build (scaffold + Drift schema + 60 seeded
-> verse/reflection pairs + deterministic scheduler) is complete. The widget,
-> WorkManager rotation, deep links, onboarding, settings, archive, favorites,
-> share-as-image, Supabase, and billing are scheduled for later steps — see
-> [Roadmap](#roadmap).
+> **Status:** Steps 1–2 complete — scaffold, Drift schema, 60 seeded
+> verse/reflection pairs, deterministic scheduler, the Today card, the
+> Reflection page (translation toggle + favorite/copy/share), and
+> share-as-image (1080×1920 / 1080×1080 PNG export). The widget, WorkManager
+> rotation, deep links, onboarding, settings, archive, Supabase, and billing
+> are scheduled for later steps — see [Roadmap](#roadmap).
 
 ---
 
@@ -171,7 +172,8 @@ lands.
 ## Roadmap
 
 - **Step 1 ✅** Scaffold + Drift schema + 60 seeded DRAFT pairs + scheduler.
-- **Step 2** Today card + Reflection page + share-as-image (1080×1920 / 1080×1080).
+- **Step 2 ✅** Today card + Reflection page (translation toggle, favorite,
+  copy, share) + share-as-image (1080×1920 / 1080×1080, off-screen capture).
 - **Step 3** Widget + WorkManager 05:00 rotation + boot receiver + deep link
   (+ the native integration tests).
 - **Step 4** Onboarding (forced widget walkthrough) + settings + archive + favorites.
